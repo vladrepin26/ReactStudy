@@ -2,26 +2,15 @@ import React from 'react';
 import './App.css';
 
 function App() {
+    const divStyle = {
+        textAlign: 'center'
+    }
     return (
-        <div>
-            <div className="App">
-                <h1>Hello world!</h1>
-            </div>
-            <p>Hi</p>
+        <div style={divStyle}>
+            <h1 style={{color: 'blue', fontSize: '20px'}}>Hello world!</h1>
         </div>
     );
 
-    // return React.createElement(
-    //     'div',
-    //     {
-    //         className: 'App'
-    //     },
-    //     React.createElement(
-    //         'h1',
-    //         null,
-    //         'Hello World'
-    //     )
-    // )
 
 }
 
