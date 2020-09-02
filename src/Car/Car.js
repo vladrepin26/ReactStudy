@@ -5,13 +5,11 @@ import React from "react";
 //         <div>This is car component</div>
 //     )
 // }
-
 // const car = () => {
 //     return (
 //         <div>This is car component</div>
 //     )
 // }
-
 // const car = () => (
 //     <div>
 //         This is car component
@@ -22,7 +20,7 @@ import React from "react";
 
 export default () => (
     <div>
-        This is car component
-        <strong>test</strong>
+        <p>This is car component</p>
+        <p>Number: <strong>{Math.round(Math.random() * 100)}</strong></p>
     </div>
 )

@@ -11,6 +11,7 @@ function App() {
         <div style={divStyle}>
             <h1>Hello</h1>
             <Car/>
+            <Car/>
         </div>
     );
 
