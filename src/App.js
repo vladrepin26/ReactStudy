@@ -3,10 +3,12 @@ import './App.css';
 
 function App() {
     return (
-        <div className="App">
-            <h1>Hello world!</h1>
+        <div>
+            <div className="App">
+                <h1>Hello world!</h1>
+            </div>
+            <p>Hi</p>
         </div>
-        <p>Hi</p>
     );
 
     // return React.createElement(
