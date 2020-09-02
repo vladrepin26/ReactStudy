@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
+import Car from './Car/Car'
 
 function App() {
     const divStyle = {
         textAlign: 'center'
     }
+
     return (
         <div style={divStyle}>
-            <h1 style={{color: 'blue', fontSize: '20px'}}>Hello world!</h1>
+            <h1>Hello</h1>
+            <Car/>
         </div>
     );
 
