@@ -42,10 +42,14 @@ class App extends Component {
                 />
                 <Car
                     name={cars[1].name}
-                    year={cars[1].year}/>
+                    year={cars[1].year}
+                    onChangeTitle={() => this.changeTitleHandler(cars[1].name)}
+                />
                 <Car
                     name={cars[2].name}
-                    year={cars[2].year}/>
+                    year={cars[2].year}
+                    onChangeTitle={() => this.changeTitleHandler(cars[2].name)}
+                />
             </div>
         );
     }
