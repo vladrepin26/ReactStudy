@@ -92,7 +92,6 @@ class App extends Component {
                 }}>
                     {cars}
                 </div>
-
             </div>
         );
     }
